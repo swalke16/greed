@@ -1,0 +1,40 @@
+== Read Me
+
+by Scott Walker
+
+== Description
+
+After finishing off the original Ruby Koans and the extra credit greed game project
+I decided to continue my learning of Ruby by incrementally enhancing the greed game
+with new and interesting features beyond the initial game requirements. Thus far
+I have added the ability to:
+
+1) Allow any number of human players to play the game interactively through the console.
+2) Allow any number of computer players (*very* simple) to play the game against human or
+   other computer players.
+3) Output coloring on the console via the required Highline gem.
+4) Probably some other stuff that I can't think of right now...
+
+== Documentation
+
+As a complete ruby n00b this is a learning project to me. I encourage anyone who would like
+to, to please provide me feedback so that I can become a better ruby developer and a better
+developer in general. 
+
+I have done the best that I could from what I've learned thus far to organize the files into
+the typical ruby project structure, naming conventions, etc...
+
+== Examples
+
+I have provided two rake tasks to go with this project.
+
+1) rake play_console - plays the console game <-- Default rake task
+2) rake spec - runs the included RSpec examples
+
+== Future Enhancements
+
+1) Create a rails UI on top of the game to learn rails.
+
+== Questions and/or Comments
+
+Feel free to ping me on twitter: @pragma_tech
